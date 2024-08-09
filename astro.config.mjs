@@ -10,9 +10,9 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: 'My Docs',
+      title: 'Verdi',
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: 'https://github.com/verdiwm/verdi',
       },
       sidebar: [
         {

@@ -3,6 +3,11 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://docs.verdi.rocks",
+	prefetch: {
+		prefetchAll: true,
+		defaultStrategy: 'load',
+	  },
 	integrations: [
 		starlight({
 			title: 'My Docs',

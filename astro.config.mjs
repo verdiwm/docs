@@ -13,6 +13,7 @@ export default defineConfig({
       title: 'Verdi',
       social: {
         github: 'https://github.com/verdiwm/verdi',
+        discord: 'https://discord.gg/SQgWaHPCFg',
       },
       sidebar: [
         {
